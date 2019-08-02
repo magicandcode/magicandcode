@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel&display=swap');
+
+$logoFont: 'Fira Code', 'Fira Mono', sans-serif;
+$mainFont: 'Source Sans Pro', sans-serif;
+$backgroundSize: 4em;
+$backgroundPosition: $backgroundSize/2;
+$backgroundColor: rgba(140, 221, 203, 1);
+$backgroundPattern:rgba(24, 179, 132, 0.8);
+$patternColorInbetween: #ffffff;
+@mixin backgroundPattern {
+    background: url(../img/triangles-color-mobile.png) 70% 100% fixed;
+    background-size: cover;//220% 120%;
+    background-color: $backgroundColor;
+    //background-size: $backgroundSize;
+}
+
+html, body {
+    font-family: $mainFont;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+    .main, main {
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0; 
+        width: 100%;
+    }
+    header.main {
+        @include backgroundPattern();
+        color: #ffffff;
+        display: flex;
+        flex-flow: row wrap;
+        //align-items: center;
+        //align-content: flex-start;
+        //justify-items: flex-start;
+        //justify-content: flex-start;
+        min-height: 100vh;
+        width: 100%;
+
+        h1 {
+            justify-self: flex-start;
+            align-self: flex-start;
+            margin: 0 auto;
+            width: 100%;
+            text-align: center;
+            a.main-logo-link {
+                color: #ffffff;
+                display: inline-block;
+                mix-blend-mode: overlay;
+                font-family: $logoFont;
+                font-size: 1.8rem;
+                font-weight: 400;
+                line-height: 1;
+                margin: 1em auto 0;
+                padding: .5em;
+                text-decoration: none;
+            }
+        }
+        h1::before,
+        h1::after {
+            mix-blend-mode: overlay;
+            display: inline-block;
+            font-size: 1.3em;
+            padding: 0;
+            position: relative;
+            top: .05em;
+        }
+        h1::before { content: '{'; padding-left: .1em; }
+        h1::after { content: '}'; padding-right: .1em; }
+    
+        nav.main-nav {
+            box-sizing: border-box;
+            margin: 0 auto;
+            order: 2;
+            padding: 1.5em 1em;
+            align-self: flex-end;
+            justify-self: flex-end;
+
+            ul.main-nav-list {
+                box-sizing: inherit;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
+            
+                li.main-nav-list-item {
+                    box-sizing: inherit;
+                    display: inline;
+                    mix-blend-mode: overlay;
+                    a.main-nav-link {
+                        box-sizing: inherit;
+                        color: #ffffff;
+                        text-decoration: none;
+                        transition: all .5s fade-in;
+                    }
+                }
+                li.main-nav-list-item:not(:last-child):after {
+                    box-sizing: inherit;
+                    content: '/';
+                    display: inline-block;
+                    padding: 0 .8em;
+                    position: relative;
+                }
+            }
+        }
+
+        section.main-presentation {
+            display: block;
+            box-sizing: inherit;
+            font-size: 1.5em;
+            line-height: 1.5;
+            padding: 1em;
+            text-align: center;
+            width: 100%;
+
+            span.main-presentation-skill {
+                font-weight: 600;
+            }
+            i.fab {
+                mix-blend-mode: overlay;
+                transition: all .5s fade-in;
+                display: inline-block;
+                font-size: 5em;
+                margin: 0 auto;
+                position: relative;
+            }
+            i.fab::after {
+                //mix-blend-mode: color-burn;
+                display: inline-block;
+                content: '';
+                background: #000;
+                //padding: .5em;
+                position: absolute;
+                top: 0;
+                right: 50%;
+                z-index: 20;
+            }
+        }
+    }
+
+    .hello {
+//        mix-blend-mode: overlay;
+        font-family: 'Grand Hotel', $logoFont;
+        font-size: 2em;
+        line-height: 1;
+    }
+
+    main {
+        padding: 1em;
+    }
