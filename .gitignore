@@ -1,2 +1,4 @@
 .DS_Store
-resources/css/*.scss
+.vscode/
+
+# Keep Sass files and generated CSS
