@@ -202,7 +202,7 @@ header.main section.main-presentation .main-presentation-skill-label {
 header.main section.main-presentation li[class^=main-presentation-skill-]:hover
 .main-presentation-skill-label,
 header.main section.main-presentation .main-presentation-skill-label:hover {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.95);
   color: rgba(255, 255, 255, 0.7);
   -webkit-transform: translate(-50%, 1.5em);
           transform: translate(-50%, 1.5em);
