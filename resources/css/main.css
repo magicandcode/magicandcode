@@ -92,13 +92,7 @@ header.main nav.main-nav {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 auto;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
   padding: 1.5em 1em;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  justify-self: flex-end;
 }
 
 header.main nav.main-nav ul.main-nav-list {
@@ -265,9 +259,11 @@ header.main section.main-presentation li[class$=-skill-git]:hover
 }
 
 .hello {
+  color: inherit;
   font-family: "Grand Hotel", "Fira Code", "Fira Mono", sans-serif;
   font-size: 2em;
   line-height: 1;
+  text-decoration: none;
 }
 
 .contact-header-title {
