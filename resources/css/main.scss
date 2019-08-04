@@ -47,7 +47,7 @@ header.main {
 header.main h1 {
   justify-self: flex-start;
   -ms-flex-item-align: start;
-  align-self: flex-start;
+      align-self: flex-start;
   margin: 0 auto;
   width: 100%;
   text-align: center;
@@ -88,38 +88,38 @@ header.main h1::after {
 
 header.main nav.main-nav {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0 auto;
   padding: 1.5em 1em;
 }
 
 header.main nav.main-nav ul.main-nav-list {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0;
   padding: 0;
 }
 
 header.main nav.main-nav ul.main-nav-list li.main-nav-list-item {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
   display: inline;
   mix-blend-mode: overlay;
 }
 
 header.main nav.main-nav ul.main-nav-list li.main-nav-list-item a.main-nav-link {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
   color: #ffffff;
   text-decoration: none;
   -webkit-transition: all .5s fade-in;
@@ -128,7 +128,7 @@ header.main nav.main-nav ul.main-nav-list li.main-nav-list-item a.main-nav-link 
 
 header.main nav.main-nav ul.main-nav-list li.main-nav-list-item:not(:last-child):after {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
   content: '/';
   display: inline-block;
   padding: 0 .8em;
@@ -137,7 +137,7 @@ header.main nav.main-nav ul.main-nav-list li.main-nav-list-item:not(:last-child)
 
 header.main section.main-presentation {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
   font-size: 1.5em;
   line-height: 1.5;
   padding: 1em;
@@ -151,11 +151,11 @@ header.main section.main-presentation ul.main-presentation-skills {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -189,7 +189,7 @@ header.main section.main-presentation .main-presentation-skill-label {
   position: absolute;
   text-decoration: none;
   -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   visibility: hidden;
   -webkit-transition: -webkit-transform .25s ease-out;
   transition: -webkit-transform .25s ease-out;
@@ -203,7 +203,7 @@ header.main section.main-presentation .main-presentation-skill-label:hover {
   background: rgba(255, 255, 255, 0.95);
   color: rgba(255, 255, 255, 0.7);
   -webkit-transform: translate(-50%, 1.5em);
-  transform: translate(-50%, 1.5em);
+          transform: translate(-50%, 1.5em);
   visibility: visible;
   -webkit-transition: -webkit-transform .25s ease-in;
   transition: -webkit-transform .25s ease-in;
@@ -283,7 +283,7 @@ header.main section.main-presentation li[class$=-skill-git]:hover
   padding: 1em .5em;
   position: absolute;
   -webkit-transform: translate(-3em, -1.5em) rotate(-25deg);
-  transform: translate(-3em, -1.5em) rotate(-25deg);
+          transform: translate(-3em, -1.5em) rotate(-25deg);
   -webkit-transition: all .5s ease-in;
   transition: all .5s ease-in;
 }
@@ -299,11 +299,11 @@ header.main section.main-presentation li[class$=-skill-git]:hover
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   list-style: none;
   margin: 0 auto;
   padding: 0;
@@ -337,7 +337,7 @@ header.main section.main-presentation li[class$=-skill-git]:hover
 footer.main {
   color: rgba(0, 0, 0, 0.7);
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Fira Code", "Fira Mono", sans-serif;
   padding: 1em 1.5em .25em;
   text-align: center;
@@ -351,4 +351,3 @@ footer.main a.footer-link {
   color: #228be6;
   text-decoration: none;
 }
-/*# sourceMappingURL=main.css.map */
