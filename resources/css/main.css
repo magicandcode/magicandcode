@@ -22,10 +22,6 @@ html, body {
   max-width: 1432px;
 }
 
-main {
-  max-width: 700px;
-}
-
 header.main {
   background: #ffffff url(../img/triangles-color-mobile.png) 80% 100% fixed;
   background-size: cover;
