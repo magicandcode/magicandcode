@@ -231,9 +231,9 @@ header.main section.main-presentation li[class$=-skill-laravel]:hover
   color: rgba(240, 56, 0, 0.8);
 }
 
-header.main section.main-presentation li[class$=-skill-wordpress]:hover
+header.main section.main-presentation li[class$=-skill-python]:hover
 .main-presentation-skill-label {
-  color: rgba(0, 22, 146, 0.8);
+  color: rgba(62, 122, 171, 0.8)
 }
 
 header.main section.main-presentation li[class$=-skill-js]:hover
