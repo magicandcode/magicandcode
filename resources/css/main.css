@@ -202,8 +202,8 @@ header.main section.main-presentation li[class^=main-presentation-skill-]:hover
 header.main section.main-presentation .main-presentation-skill-label:hover {
   background: rgba(255, 255, 255, 0.95);
   color: rgba(255, 255, 255, 0.7);
-  -webkit-transform: translate(-50%, 2.5em);
-  transform: translate(-50%, 2.5em);
+  -webkit-transform: translate(-50%, 2.7em);
+  transform: translate(-50%, 2.7em);
   visibility: visible;
   -webkit-transition: -webkit-transform .25s ease-in;
   transition: -webkit-transform .25s ease-in;
