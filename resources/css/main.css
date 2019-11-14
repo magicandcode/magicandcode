@@ -145,6 +145,10 @@ header.main section.main-presentation {
   width: 100%;
 }
 
+header.main section.main-presentation a {
+  color: inherit;
+}
+
 header.main section.main-presentation ul.main-presentation-skills {
   display: -webkit-box;
   display: -ms-flexbox;
