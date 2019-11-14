@@ -145,8 +145,11 @@ header.main section.main-presentation {
   width: 100%;
 }
 
-header.main section.main-presentation a {
-  color: inherit;
+header.main section.main-presentation a,
+header.main section.main-presentation a:active,
+header.main section.main-presentation a:hover,
+header.main section.main-presentation a:visited {
+  color: #ffffff, inherit;
 }
 
 header.main section.main-presentation ul.main-presentation-skills {
