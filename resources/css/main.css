@@ -266,6 +266,7 @@ header.main section.main-presentation li[class$=-skill-git]:hover
 }
 
 .hello::before {
+  content: '';
   border: 0 rgba(255, 255, 255, 0.9) dotted;
   border-radius: 50%;
   -webkit-transition: all .5s ease-out;
