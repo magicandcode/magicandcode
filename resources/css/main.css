@@ -269,8 +269,8 @@ header.main section.main-presentation li[class$=-skill-git]:hover
   content: '';
   border: 0 rgba(255, 255, 255, 0.9) dotted;
   border-radius: 50%;
-  -webkit-transition: all .5s ease-out;
-  transition: all .5s ease-out;
+  -webkit-transition: border, content .5s ease-out;
+  transition: border, content .5s ease-out;
 }
 
 .hello:hover::before {
@@ -285,8 +285,8 @@ header.main section.main-presentation li[class$=-skill-git]:hover
   position: absolute;
   -webkit-transform: translate(-3em, -1.5em) rotate(-25deg);
   transform: translate(-3em, -1.5em) rotate(-25deg);
-  -webkit-transition: all .5s ease-in;
-  transition: all .5s ease-in;
+  -webkit-transition: border, content .5s ease-in;
+  transition: border, content .5s ease-in;
 }
 
 .contact-header-title {
