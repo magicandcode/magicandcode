@@ -357,3 +357,56 @@ footer.main a.footer-link {
   text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+
+}
+
+.content a {
+  color: #ef5554;
+}
+
+.section__symbol {
+  font-size: 1.5em;
+  margin-right: .5em;
+}
+
+.appearance__checklist {
+  list-style-type: none;
+  position: relative;
+}
+
+.appearance__checklist__item::before,
+.checklist__title.checked::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+}
+
+.appearance__checklist__item {
+  margin-bottom: 2em;
+}
+
+.appearance__checklist__item::before {
+  padding: .5em;
+  border: 2px solid black;
+}
+
+.checklist__title.checked::before {
+  color: #ef5554;;
+  content: '\2713';
+  font-family: 'Fira Mono', monospace;
+  font-size: 2em;
+  left: 0em;
+  top: -.4em;
+}
+.checklist__title {
+  cursor: pointer;
+  display: block;
+  line-height: 1.1;
+  margin-bottom: .5em;
+  padding-left: 2em;
+  position: relative;
+}

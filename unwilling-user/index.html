@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en_GB">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{ magicandcode } The unwilling User's Guide to Windows</title>
+        <link href="../favicon.png" rel="icon">
+        <link href="../resources/css/main.css" rel="stylesheet">
+        <script defer src="../resources/js/main.js"></script>
+        <script defer src="https://kit.fontawesome.com/c81a335880.js"></script>
+    </head>
+    <body>
+        <header class="main">
+            <h1 class="main-logo"><a href="/" class="main-logo-link">magicandcode</a></h1>
+            <section class="main-presentation">
+                <h2>The Unwilling User's Guide to Windows</h2>
+                <a href="#appearance"><h3>Appearance</h3></a>
+            </section>
+        </header>
+        <main id="appearance">
+            <article class="content">
+                <header>
+                    <h1>An Acceptable Appearance</h1>
+                </header>
+                <p>
+                    Presentation for PyLadies <time>September 30 2020</time>.
+                    This is the first of three parts in a series on how to achieve
+                    an acceptable Windows experience coming from MacOS (or Linux).
+                </p>
+                <a href="../resources/docs/unwilling-users-guide-to-windows-appearance-checklist.pdf">Download checklist as PDF</a>
+                <section class="appearance__section">
+                    <h2><i class="fas fa-search section__symbol"></i>App & Text Size</h2>
+                    <ul class="appearance__checklist">
+                        <li class="appearance__checklist__item">
+                            <h3 class="checklist__title">Reduce app & text size</h3>
+                            Settings > System > Display or Settings > Ease of Access > Display
+                        </li>
+                    </ul>
+                </section>
+                <section class="appearance__section">
+                    <h2><i class="far fa-image section__symbol"></i>Background</h2>
+                    <ul class="appearance__checklist">
+                        <li class="appearance__checklist__item">
+                            <h3 class="checklist__title">Change desktop background</h3>
+                            Settings > Personalisation > Background or
+                            Settings > Personalisation > Themes > Background<br>
+                            <a href="https://www.omgubuntu.co.uk/2016/09/ubuntu-16-10-default-wallpaper" target="_blank" rel="noopener noreferrer">Ubuntu 16.10 background</a>
+                        </li>
+                        <li class="appearance__checklist__item">
+                            <h3 class="checklist__title">Bin the Bin</h3>
+                            Settings > Personalisation > Themes > Related settings > Desktop icons settings
+                        </li>
+                    </ul>
+                </section>
+                <section class="appearance__section">
+                    <h2><i class="fas fa-brush section__symbol"></i>Colours</h2>
+                    <ul class="appearance__checklist">
+                        <li class="appearance__checklist__item">
+                            <h3 class="checklist__title">Set mouse pointer colour to black</h3>
+                            Settings > Personalisation > Themes > Background or
+                            Settings > Personalisation > Themes > Mouse Cursor Settings
+                        </li>
+                        <li class="appearance__checklist__item">
+                            <h3 class="checklist__title">Set dark mode and accent colour</h3>
+                            Settings > Personalisation > Colours or Settings > Personalisation > Themes
+                        </li>
+                    </ul>
+                </section>
+                <section class="appearance__section">
+                    <h2><i class="fas fa-fingerprint section__symbol"></i>Lock Screen</h2>
+                    <ul class="appearance__checklist">
+                        <li class="appearance__checklist__item">
+                            <h3 class="checklist__title">Uncheck all and set background picture</h3>
+                            Settings > Personalisation > Lock Screen
+                        </li>
+                    </ul>
+                </section>
+                <section class="appearance__section">
+                    <h2><i class="fas fa-compass section__symbol"></i>Taskbar</h2>
+                    <ul class="appearance__checklist">
+                        <li class="appearance__checklist__item">
+                            <h3 class="checklist__title">Use small buttons</h3>
+                            Settings > Personalisation > Taskbar > Use small taskbar buttons [On]
+                        </li>
+                        <li class="appearance__checklist__item">
+                            <h3 class="checklist__title">Move to the top</h3>
+                            Settings > Personalisation > Taskbar > Taskbar location on screen [Top]
+                        </li>
+                        <li class="appearance__checklist__item">
+                            <h3 class="checklist__title">Remove redundant icons & buttons</h3>
+                            Settings > Personalisation > Taskbar > Combine taskbar buttons [Always hide labels]<br>
+                            Settings > Personalisation > Taskbar > Select which icons to appear on the taskbar<br>
+                            Right click on taskbar > Unselect “Show Cortana button” and “Show Task View button”
+                        </li>
+                        <li class="appearance__checklist__item">
+                            <h3 class="checklist__title">Add Show Desktop button</h3>
+                            Right click on desktop > New > Shortcut<br>
+                            Set shortcut location:
+                            <code>C:\Windows\explorer.exe shell:::{3080F90D-D7AD-11D9-BD98-0000947B0257}</code><br>
+                            Set shortcut name: Show Desktop<br>
+                            Right click on shortcut > Properties > Change icon…<br>
+                            Send shortcut to Taskbar
+                        </li>
+                    </ul>
+                </section>
+                <section class="appearance__section">
+                    <h2><i class="fas fa-laptop section__symbol"></i>Screen Saver</h2>
+                    <ul class="appearance__checklist">
+                        <li class="appearance__checklist__item">
+                            <h3 class="checklist__title">Install Fliqlo & set as screen saver</h3>
+                            Download <a href="https://fliqlo.com/" target="_blank" rel="noopener noreferrer">Fliqlo for Windows</a><br>
+                            Extract downloaded file and double click on Fliqlo Setup to install.<br>
+                            Settings > Personalisation > Lock screen > Screen Saver Settings
+                        </li>
+                    </ul>
+                </section>
+<!--
+                <aside class="msg msg__alert"><h1>Appearance is fixed!</h1>
+                <p>
+                    Congratulations on getting one step closer to an acceptable Windows experience.
+                </p></aside> -->
+
+            </article>
+        </main>
+        <footer class="main">
+            <p>Built with <i class="fas fa-heart"></i>, <i class="fas fa-code"></i> and <a href="https://fontawesome.com/" class="footer-link" target="_blank" title="Font Awesome"><i class="fab fa-font-awesome"></i></a></p>
+        </footer>
+    </body>
+</html>
