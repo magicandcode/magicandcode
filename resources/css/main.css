@@ -399,8 +399,8 @@ footer.main a.footer-link {
   content: '\2713';
   font-family: 'Fira Mono', monospace;
   font-size: 2em;
-  left: 0em;
-  top: -.4em;
+  left: -.1em;
+  top: -.3em;
 }
 .checklist__title {
   cursor: pointer;
