@@ -397,6 +397,7 @@ footer.main a.footer-link {
 }
 
 .appearance__checklist__item {
+  line-height: 1.5em;
   margin-bottom: 2em;
 }
 
@@ -484,5 +485,4 @@ footer.main a.footer-link {
   background: #fffbfb;
   border-width: 0;
   color: #ef5554;
-  font-weight: 500;
 }
