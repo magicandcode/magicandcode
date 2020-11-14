@@ -474,9 +474,15 @@ footer.main a.footer-link {
 
 .path {
   border: .09em solid #ddd4d4;
-  border-radius: .17em;
+  border-radius: .1em;
   font-family: 'Fira Mono', monospace;
   font-size: .85em;
   padding: 0 .4em;
 }
 
+.checklist__path {
+  background: #fffbfb;
+  border-width: 0;
+  color: #ef5554;
+  font-weight: 500;
+}
