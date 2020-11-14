@@ -4,11 +4,21 @@
 html, body {
   background-color: #000000;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
   min-height: 100vh;
+  width: 100%;
+}
+
+
+p {
+  line-height: 1.6;
+}
+
+img {
+  display: block;
   width: 100%;
 }
 
@@ -59,7 +69,7 @@ header.main h1 a.main-logo-link {
   display: inline-block;
   mix-blend-mode: overlay;
   font-family: "Fira Code", "Fira Mono", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1;
   margin: 1em auto 0;
@@ -71,7 +81,7 @@ header.main h1::before,
 header.main h1::after {
   mix-blend-mode: overlay;
   display: inline-block;
-  font-size: 1.3em;
+  font-size: 1em;
   padding: 0;
   position: relative;
   top: .05em;
@@ -358,8 +368,9 @@ footer.main a.footer-link {
 }
 /*# sourceMappingURL=main.css.map */
 
-.content {
-  max-width: 900px;
+.content,
+.main-header {
+  max-width: 800px;
   margin: 0 auto;
 
 }
@@ -411,3 +422,61 @@ footer.main a.footer-link {
   padding-left: 2em;
   position: relative;
 }
+
+
+
+.main-article-title,
+.article-title,
+.article-subtitle {
+  text-align: center;
+}
+
+.article-title,
+.article-subtitle {
+  margin: .25em auto 0;
+}
+
+.main-article-intro {
+  font-weight: 600;
+}
+
+.article-subtitle {
+  font-size: 1.3rem;
+}
+
+.article-title {
+  font-size: 1.75rem;
+}
+
+.main-article-intro,
+.main-article-subtitle {
+  font-weight: 600;
+}
+
+.main-article-intro,
+.article-intro {
+  font-size: 1.2rem;
+}
+
+.meta-summary {
+  font-weight: 600;
+  font-size: .95rem;
+}
+
+.disclaimer {
+  font-style: italic;
+}
+
+.appearance__fig {
+  margin: 2rem auto;
+  width: 90%;
+}
+
+.path {
+  border: .09em solid #ddd4d4;
+  border-radius: .17em;
+  font-family: 'Fira Mono', monospace;
+  font-size: .85em;
+  padding: 0 .4em;
+}
+
