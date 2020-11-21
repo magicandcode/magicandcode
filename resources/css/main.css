@@ -397,6 +397,7 @@ footer.main a.footer-link {
 }
 
 .appearance__checklist__item {
+  line-height: 1.5em;
   margin-bottom: 2em;
 }
 
@@ -448,6 +449,10 @@ footer.main a.footer-link {
   font-size: 1.75rem;
 }
 
+.article-section-title {
+  margin-top: 1.8em;
+}
+
 .main-article-intro,
 .main-article-subtitle {
   font-weight: 600;
@@ -456,6 +461,10 @@ footer.main a.footer-link {
 .main-article-intro,
 .article-intro {
   font-size: 1.2rem;
+}
+
+.subarticle-summary {
+  font-size: .9rem;
 }
 
 .meta-summary {
@@ -469,7 +478,7 @@ footer.main a.footer-link {
 
 .appearance__fig {
   margin: 2rem auto;
-  width: 90%;
+  width: 100%;
 }
 
 .path {
@@ -484,5 +493,27 @@ footer.main a.footer-link {
   background: #fffbfb;
   border-width: 0;
   color: #ef5554;
-  font-weight: 500;
+}
+
+.title-content-link {
+  line-height: 1;
+  margin-bottom: 0;
+}
+.title-content-link:active,
+.title-content-link:link,
+.title-content-link:visited {
+  color: #ef5554;
+  text-decoration: none;
+}
+
+.title-content-link:focus,
+.title-content-link:hover {
+  text-decoration: underline;
+}
+
+
+@media screen and (min-width: 600px) {
+  .appearance__fig {
+    width: 90%;
+  }
 }
