@@ -463,6 +463,10 @@ footer.main a.footer-link {
   font-size: 1.2rem;
 }
 
+.subarticle-summary {
+  font-size: .9rem;
+}
+
 .meta-summary {
   font-weight: 600;
   font-size: .95rem;
@@ -489,6 +493,22 @@ footer.main a.footer-link {
   background: #fffbfb;
   border-width: 0;
   color: #ef5554;
+}
+
+.title-content-link {
+  line-height: 1;
+  margin-bottom: 0;
+}
+.title-content-link:active,
+.title-content-link:link,
+.title-content-link:visited {
+  color: #ef5554;
+  text-decoration: none;
+}
+
+.title-content-link:focus,
+.title-content-link:hover {
+  text-decoration: underline;
 }
 
 
