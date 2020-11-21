@@ -449,6 +449,10 @@ footer.main a.footer-link {
   font-size: 1.75rem;
 }
 
+.article-section-title {
+  margin-top: 1.8em;
+}
+
 .main-article-intro,
 .main-article-subtitle {
   font-weight: 600;
@@ -470,7 +474,7 @@ footer.main a.footer-link {
 
 .appearance__fig {
   margin: 2rem auto;
-  width: 90%;
+  width: 100%;
 }
 
 .path {
@@ -485,4 +489,11 @@ footer.main a.footer-link {
   background: #fffbfb;
   border-width: 0;
   color: #ef5554;
+}
+
+
+@media screen and (min-width: 600px) {
+  .appearance__fig {
+    width: 90%;
+  }
 }
