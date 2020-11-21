@@ -284,23 +284,24 @@ header.main section.main-presentation li[class$=-skill-git]:hover
 }
 
 .hello::before {
-  content: '';
-  border: 0 rgba(255, 255, 255, 0.9) dotted;
+  border: .15em rgba(255, 255, 255, 0) dotted;
   border-radius: 50%;
-}
-
-.hello:hover::before {
-  border: 0.15em rgba(255, 255, 255, 0.9) dotted;
-  border-radius: 50%;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0);
   content: 'Say hi!';
   display: block;
   font-size: .5em;
   line-height: 1.2;
   padding: 1em .5em;
   position: absolute;
+  transform-origin: center;
   -webkit-transform: translate(-3em, -1.5em) rotate(-25deg);
   transform: translate(-3em, -1.5em) rotate(-25deg);
+  transition: color .2s ease-in-out, border .2s ease-in-out ;
+}
+
+.hello:hover::before {
+  border-color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .contact-header-title {
