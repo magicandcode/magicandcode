@@ -511,6 +511,9 @@ footer.main a.footer-link {
   text-decoration: underline;
 }
 
+.article-nav-item-link {
+  display: block;
+}
 
 @media screen and (min-width: 600px) {
   .appearance__fig {
