@@ -337,7 +337,7 @@ header.main section.main-presentation li[class$=-skill-git]:hover
 }
 
 .contact-list .contact-list-item .contact-list-link {
-  color: black;
+  color: rgba(0, 0, 0, 1);
   text-decoration: none;
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out;
@@ -351,9 +351,9 @@ header.main section.main-presentation li[class$=-skill-git]:hover
 
 .contact-list .contact-list-item:hover
 .contact-list-link {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, .6);
   -webkit-transition: all .5s ease-in;
-  transition: all .5s ease-in;
+  transition: all .3s ease-in;
 }
 
 footer.main {
