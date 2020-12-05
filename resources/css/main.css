@@ -253,6 +253,8 @@ header.main section.main-presentation li[class$=-skill-laravel]:hover
   color: rgba(240, 56, 0, 0.8);
 }
 
+header.main section.main-presentation li[class$=-skill-cpp]:hover
+.main-presentation-skill-label,
 header.main section.main-presentation li[class$=-skill-python]:hover
 .main-presentation-skill-label {
   color: #176fa7;
