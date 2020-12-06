@@ -488,6 +488,12 @@ footer.main a.footer-link {
   width: 100%;
 }
 
+figcaption {
+  color: rgba(0, 0, 0, .8);
+  font-size: .9em;
+  margin-top: .5em;
+}
+
 .path {
   border: .09em solid #ddd4d4;
   border-radius: .1em;
