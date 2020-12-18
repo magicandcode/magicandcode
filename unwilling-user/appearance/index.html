@@ -235,6 +235,35 @@
                         <img class="double-img" src="./img/taskbar-cortana-post.png" alt="Right click on the taskbar to toggle the Show Cortana and Task View buttons." srcset="">
                         <figcaption>Right click on the taskbar to toggle the Show Cortana and Task View buttons.</figcaption>
                     </figure>
+                    <p>
+                        Remember <strong>Peek preview</strong> from earlier? A long time ago when I still used Windows as
+                        my primary OS there was a <strong>Show Desktop</strong> icon in the taskbar. It was one of my favourite
+                        features, the ability to hide all open applications and gaze at an empty desktop. It was my
+                        zen-moment.
+                    </p>
+                    <p>
+                        At first I thought this awesome feature was removed in Windows 10. However, it turns out it’s
+                        still here. But for some reason the button is tiny. It’s hard to find unless you know here to look, at the far right of the taskbar.<br>
+                        With the <strong>Peek preview</strong> setting turned on you can hover over this “button” to show the desktop
+                        with only outlines of current application windows. Regardless of this setting’s state, when
+                        you click on the button it shows the desktop just like my favourite feature. But, I’m not
+                        convinced of the UI design and have come up with an alternative solution.
+                    </p>
+                    <p>
+                        Start by creating a <span class="path">new shortcut</span> called Show Desktop by right clicking on the desktop and selecting the option in the menu.<br>
+                        However, only a shortcut won't do anything, it needs a target. To make it behave like the Show
+                        Desktop button we add <span class="path">C:\Windows\explorer.exe
+                            shell:::{3080F90D-D7AD-11D9-BD98-0000947B0257}</span> which is the location to the
+                        command in Windows. Click Next and confirm that it's working as expected by double clicking
+                        the icon.
+                    </p>
+                    <p>
+                        Once you've created the shortcut, right click and select <strong>Properties</strong>.Then click on <strong>Change
+                        Icon</strong> to do just that. Use any native or custom icon to your liking.
+                    </p>
+                    <p>
+                        Finally, add the new shortcut to the taskbar and delete the shortcut on the desktop. Done!<br>
+                        Windows Zen at your fingertips.
                     </p>
                     <h3>Steps Checklist</h3>
                     <ul class="appearance__checklist">
