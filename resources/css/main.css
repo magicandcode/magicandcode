@@ -158,6 +158,15 @@ header.main section.main-presentation {
   padding: 1em;
   text-align: center;
   width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sub-intro {
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 2em;
 }
 
 a,
@@ -310,7 +319,9 @@ header.main section.main-presentation li[class$=-skill-git]:hover
   color: rgba(0, 0, 0, 0.9);
 }
 
-.contact-header-title {
+.contact-header-title,
+.about-header-title {
+  color: #ef5554;
   font-family: "Fira Code", "Fira Mono", sans-serif;
   text-align: center;
 }
